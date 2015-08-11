@@ -1,7 +1,28 @@
+*{	
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	background-color: inherit;
+	background-color: lightblue;
+}
+
+a {
+	text-decoration: none;
+	color:inherit;
+}
+
+a:hover {
+	text-decoration: none;
+	color:darkgrey;
+}
+
 .ProjectBox {
 	border: 1px solid black;
 }
 
 .content {
-	background-color: grey;
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid black;
+	padding: 5px;
 }
