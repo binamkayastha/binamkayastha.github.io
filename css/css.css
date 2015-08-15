@@ -1,4 +1,4 @@
-*{	
+*{
 	padding: 0;
 	margin: 0;
 	text-align: center;
@@ -8,7 +8,7 @@
 
 a {
 	text-decoration: none;
-	color:inherit;
+	color:cyan;
 }
 
 a:hover {
@@ -16,13 +16,19 @@ a:hover {
 	color:darkgrey;
 }
 
+#titlehead {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: darkorange;
+}
+
 .ProjectBox {
 	border: 1px solid black;
 }
 
 .content {
+	/*vertical-align: top;*/
 	background-color: white;
 	border-radius: 5px;
 	border: 1px solid black;
-	padding: 5px;
+	/*padding: 5px;*/
 }
