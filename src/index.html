@@ -10,13 +10,13 @@
     <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
-  <body class="blue">
+  <body class="indigo darken-3">
     <div class="container" ng-controller="AppCtrl">
       <!-- https://css-tricks.com/snippets/css/a-guide-to-flexbox/ -->
-      <h1>Binam's Projects</h1>
+      <h1 class="center">Binam's Projects</h1>
 
       <div class="flexbox">
-        <div class="stream purple col" ng-repeat="stream in projectList">
+        <div class="stream grey darken-1 col" ng-repeat="stream in projectList">
           <h5>{{stream.name}}</h5>
           <div class="card blue" ng-repeat="project in stream.list">
             <div class="card-content white-text">

@@ -5,26 +5,26 @@
         {
           "title": "This Website",
           "description": "Website of links to all my projects",
-          "link": "http://binamkayastha.github.io",
+          "link": "https://binamkayastha.github.io",
           "linkName": "Link to this website!"
         },
         {
           "title": "WPI ACM Website",
           "description": "A material website for the Computer Science club on campus",
-          "link": "https://github.com/binamkayastha/WPI-ACM-Material-Website-2016",
-          "linkName": "Link to github project!"
+          "link": "https://binamkayastha.github.io/WPI-ACM-Material-Website-2016",
+          "linkName": "Link to website"
         },
         {
           "title": "WPI GreenTeam Website",
           "description": "A bootstrap website for the environmental club on campus",
-          "link": "https://github.com/binamkayastha/GreenTeam-Website",
-          "linkName": "Link to github project"
+          "link": "http://greenteam.wpi.edu",
+          "linkName": "Link to website"
         },
         {
           "title": "MailingList",
           "description": "A website (for WPI again) to combine and orgsync and email alias lists together",
-          "link": "https://github.com/binamkayastha/Maillist",
-          "linkName": "Link to github project"
+          "link": "https://binamkayastha.github.io/Maillist",
+          "linkName": "Link to website"
         }
     ]
   },
@@ -62,8 +62,8 @@
       {
         "title": "Todo list platform",
         "description": "A website combining the trello and habitica api to have a central place to look at your different todolists together.",
-        "link": "https://github.com/binamkayastha/todolist-platform",
-        "linkName": "Link to github project"
+        "link": "http://binamkayastha.github.io/todolist-platform",
+        "linkName": "Link to project website"
       }
     ]
   },
