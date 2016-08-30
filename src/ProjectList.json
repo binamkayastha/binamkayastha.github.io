@@ -1,0 +1,99 @@
+[
+  {
+    "name": "Websites",
+    "list": [
+        {
+          "title": "This Website",
+          "description": "Website of links to all my projects",
+          "link": "http://binamkayastha.github.io",
+          "linkName": "Link to this website!"
+        },
+        {
+          "title": "WPI ACM Website",
+          "description": "A material website for the Computer Science club on campus",
+          "link": "https://github.com/binamkayastha/WPI-ACM-Material-Website-2016",
+          "linkName": "Link to github project!"
+        },
+        {
+          "title": "WPI GreenTeam Website",
+          "description": "A bootstrap website for the environmental club on campus",
+          "link": "https://github.com/binamkayastha/GreenTeam-Website",
+          "linkName": "Link to github project"
+        },
+        {
+          "title": "MailingList",
+          "description": "A website (for WPI again) to combine and orgsync and email alias lists together",
+          "link": "https://github.com/binamkayastha/Maillist",
+          "linkName": "Link to github project"
+        }
+    ]
+  },
+  {
+    "name": "Hackathon Projects",
+    "list": [
+      {
+        "title": "OneArmBand",
+        "description": "A project where we had various devices linked together through a server in order to make music and notes from one arm",
+        "link": "https://github.com/OnlineHackathon/OneArmBand",
+        "linkName": "LInk to github project"
+      },
+      {
+        "title": "HoloSense",
+        "description": "Made echolocation app which allows you to walk around indoors without a cane with a hololens."
+      },
+      {
+        "title": "Lost & Found",
+        "description": "A central place where WPI students can find and loose items",
+        "link": "https://github.com/zombifier/lost-found",
+        "linkName": "Link to github project"
+      },
+      {
+        "title": "Nutrifact",
+        "description": "A website/android app which reads the barcode and tells you whether there are any allergic substances/ingredients which you are not allowed to eat.",
+        "link": "https://github.com/christinakayastha/NutriFact",
+        "linkName": "Link to github project"
+      },
+      {
+        "title": "alphaStep",
+        "description": "A webapp which can teach you to write any UTF-based letter or word, meaning any font and any lanaguage.",
+        "link": "https://github.com/binamkayastha/alphaWorm",
+        "linkName": "Link to github project"
+      },
+      {
+        "title": "Todo list platform",
+        "description": "A website combining the trello and habitica api to have a central place to look at your different todolists together.",
+        "link": "https://github.com/binamkayastha/todolist-platform",
+        "linkName": "Link to github project"
+      }
+    ]
+  },
+  {
+    "name": "Others",
+    "list": [
+      {
+        "title": "KeyboardMario",
+        "description": "A python program which listens to the event of keypress in archlinux, and plays a note in the mario song for each event.",
+        "link": "https://github.com/binamkayastha/KeyboardMario",
+        "linkName": "Link to github project"
+      },
+      {
+        "title": "CalendarToImage",
+        "description": "A python program, which takes my events on google calendar and creates an square image with the events on them, so I can see my calendar on the ipod nano.",
+        "link": "https://github.com/binamkayastha/CalendarToImage",
+        "linkName": "Link to github project"
+      },
+      {
+        "title": "IEEE LED Sign",
+        "description": "A python program which converts an image to displaying on the led sign made for the IEEE student organization.",
+        "link": "https://github.com/binamkayastha/IEEE_LED_Sign",
+        "linkName": "Link to github project"
+      },
+      {
+        "title": "MakeToMove",
+        "description": "A giant geodesic dome which was created to encourage people to stop sitting and start moving.",
+        "link": "https://github.com/binamkayastha/MakeToMove",
+        "linkName": "Link to github project"
+      }
+    ]
+  }
+]

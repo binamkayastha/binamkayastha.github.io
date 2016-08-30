@@ -1,0 +1,24 @@
+* {
+  font-family: 'Capriola', sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  width: 100%;
+}
+
+.flexbox {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+}
+
+.flexbox .col {
+  flex: 1;
+  padding: 10px;
+  margin: 5px;
+}
