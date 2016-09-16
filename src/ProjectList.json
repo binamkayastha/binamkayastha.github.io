@@ -71,6 +71,12 @@
     "name": "Others",
     "list": [
       {
+        "title": "Resume",
+        "description": "",
+        "link": "https://users.wpi.edu/~bkayastha/resume.pdf",
+        "linkName": "Resume PDF"
+      },
+      {
         "title": "KeyboardMario",
         "description": "A python program which listens to the event of keypress in archlinux, and plays a note in the mario song for each event.",
         "link": "https://github.com/binamkayastha/KeyboardMario",

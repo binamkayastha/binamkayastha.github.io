@@ -13,7 +13,13 @@
   <body class="indigo darken-3">
     <div class="container" ng-controller="AppCtrl">
       <!-- https://css-tricks.com/snippets/css/a-guide-to-flexbox/ -->
-      <h1 class="center">Binam's Projects</h1>
+      <div class="row">
+        <div class="col s1"></div>
+        <div class="col s3" id="awesome-pic"><img src="headshot.jpg"></div>
+        <div class="col s6"><h3 class="center">Binam's Projects</h3></div>
+        <div class="col s1"></div>
+      </div>
+
 
       <div class="flexbox">
         <div class="stream grey darken-1 col" ng-repeat="stream in projectList">
