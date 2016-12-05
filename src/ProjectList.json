@@ -3,39 +3,39 @@
     "name": "Websites",
     "list": [
         {
-          "title": "This Website",
-          "description": "Website of links to all my projects",
-          "link": "https://binamkayastha.github.io",
-          "linkName": "Link to this website!"
-        },
-        {
-          "title": "WPI ACM Website",
+          "title": "WPI ACM",
           "description": "A material website for the Computer Science club on campus",
           "link": "https://binamkayastha.github.io/WPI-ACM-Material-Website-2016",
-          "linkName": "Link to website"
+          "linkName": "ACM Website!"
         },
         {
-          "title": "WPI GreenTeam Website",
+          "title": "WPI GreenTeam",
           "description": "A bootstrap website for the environmental club on campus",
           "link": "http://greenteam.wpi.edu",
-          "linkName": "Link to website"
+          "linkName": "GreenTeam Website!"
         },
         {
           "title": "MailingList",
           "description": "A website (for WPI again) to combine and orgsync and email alias lists together",
           "link": "https://binamkayastha.github.io/Maillist",
-          "linkName": "Link to website"
+          "linkName": "Link to website!"
+        },
+        {
+          "title": "This Website",
+          "description": "Website of links to most of my projects",
+          "link": "https://binamkayastha.github.io",
+          "linkName": "This website!"
         }
     ]
   },
   {
-    "name": "Hackathon Projects",
+    "name": "Hack-a-thons",
     "list": [
       {
         "title": "OneArmBand",
         "description": "A project where we had various devices linked together through a server in order to make music and notes from one arm",
         "link": "https://github.com/OnlineHackathon/OneArmBand",
-        "linkName": "LInk to github project"
+        "linkName": "Github"
       },
       {
         "title": "HoloSense",
@@ -45,19 +45,19 @@
         "title": "Lost & Found",
         "description": "A central place where WPI students can find and loose items",
         "link": "https://github.com/zombifier/lost-found",
-        "linkName": "Link to github project"
+        "linkName": "Github"
       },
       {
         "title": "Nutrifact",
         "description": "A website/android app which reads the barcode and tells you whether there are any allergic substances/ingredients which you are not allowed to eat.",
         "link": "https://github.com/christinakayastha/NutriFact",
-        "linkName": "Link to github project"
+        "linkName": "Github"
       },
       {
         "title": "alphaStep",
         "description": "A webapp which can teach you to write any UTF-based letter or word, meaning any font and any lanaguage.",
         "link": "https://github.com/binamkayastha/alphaWorm",
-        "linkName": "Link to github project"
+        "linkName": "Github"
       },
       {
         "title": "Todo list platform",
@@ -68,37 +68,31 @@
     ]
   },
   {
-    "name": "Others",
+    "name": "Miscellaneous",
     "list": [
-      {
-        "title": "Resume",
-        "description": "",
-        "link": "https://users.wpi.edu/~bkayastha/resume.pdf",
-        "linkName": "Resume PDF"
-      },
       {
         "title": "KeyboardMario",
         "description": "A python program which listens to the event of keypress in archlinux, and plays a note in the mario song for each event.",
         "link": "https://github.com/binamkayastha/KeyboardMario",
-        "linkName": "Link to github project"
+        "linkName": "Github"
       },
       {
         "title": "CalendarToImage",
         "description": "A python program, which takes my events on google calendar and creates an square image with the events on them, so I can see my calendar on the ipod nano.",
         "link": "https://github.com/binamkayastha/CalendarToImage",
-        "linkName": "Link to github project"
+        "linkName": "Github"
       },
       {
         "title": "IEEE LED Sign",
         "description": "A python program which converts an image to displaying on the led sign made for the IEEE student organization.",
         "link": "https://github.com/binamkayastha/IEEE_LED_Sign",
-        "linkName": "Link to github project"
+        "linkName": "Github"
       },
       {
         "title": "MakeToMove",
         "description": "A giant geodesic dome which was created to encourage people to stop sitting and start moving.",
         "link": "https://github.com/binamkayastha/MakeToMove",
-        "linkName": "Link to github project"
+        "linkName": "Github"
       }
     ]
   }
