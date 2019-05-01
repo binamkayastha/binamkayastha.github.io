@@ -38,6 +38,12 @@
     "name": "Hack-a-thons",
     "list": [
       {
+        "title": "Professor Ciaraldi's Jokes",
+        "description": "A compilation of a WPI professor well known for his jokes. If you have any more send them my way ;)",
+        "link": "http://binamkayastha.com/ProfCiaraldiJokes/",
+        "linkName": "Website!"
+      },
+      {
         "title": "OneArmBand (1st)",
         "description": "A project where we had various devices linked together through a server in order to make music and notes from one arm",
         "link": "https://github.com/OnlineHackathon/OneArmBand",
