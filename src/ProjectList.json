@@ -5,7 +5,7 @@
 	{
           "title": "Light Docs MD",
           "description": "A very light documentation visualization website which is generated directly from the github repo, no extra config required.",
-          "link": "light-docs.binamkayastha.com",
+          "link": "https://light-docs.binamkayastha.com",
           "linkName": "Demo of lightdocs here!"
 	},
 	{
@@ -52,19 +52,19 @@
         {
           "title": "Life Economy",
           "description": "Regulate your life with fake currency.",
-          "link": "life-economy.binamkayashta.com",
+          "link": "https://life-economy.binamkayashta.com",
           "linkName": "DemoSite Life Economy"
         },
         {
           "title": "Professor Ciaraldi's Jokes",
           "description": "A compilation of a WPI professor well known for his jokes. If you have any more send them my way ;)",
-          "link": "prof-ciaraldi-jokes.binamkayastha.com",
+          "link": "https://prof-ciaraldi-jokes.binamkayastha.com",
           "linkName": "Watch Prof Ciaraldi's Jokes!"
         },
 	{
           "title": "Lei's Scavenger Hunt",
           "description": "A site made for secret santa scavenger hunt where I hid the present in pieces around the office.",
-          "link": "leisscavenger.binamkayastha.com",
+          "link": "https://leisscavenger.binamkayastha.com",
           "linkName": "Lei's Scavenger Hunt"
 	}
     ]
