@@ -2,12 +2,24 @@
   {
     "name": "Apps",
     "list": [
-        {
-          "title": "Life Economy",
-          "description": "Regulate your life with fake currency. Just wait till I add supply and demand rules to this x.x",
-          "link": "https://github.com/binamkayastha/life-economy",
+	{
+          "title": "Light Docs MD",
+          "description": "A very light documentation visualization website which is generated directly from the github repo, no extra config required.",
+          "link": "light-docs.binamkayastha.com",
+          "linkName": "Demo of lightdocs here!"
+	},
+	{
+          "title": "Blog",
+          "description": "The beginning of a soon to be legit blog of coding tutorials for beginners. Hosted on Light Docs :P",
+          "link": "https://light-docs.binamkayastha.com/?config=%7B%22version%22:%22v0.1%22,%22data%22:%7B%22githubRepos%22:%5B%7B%22name%22:%22Blog%22,%22owner%22:%22binamkayastha%22,%22repo%22:%22blog%22,%22docsLocation%22:%22%22%7D%5D%7D%7D",
+          "linkName": "Binam's Blog (WIP)"
+	},
+	{
+          "title": "WebApp Hoster",
+          "description": "Traefik configurations required to get all my sites certified and running on one server.",
+          "link": "https://github.com/binamkayastha/WebAppHoster",
           "linkName": "Github"
-        },
+	},
         {
           "title": "Goodnight",
           "description": "A google voicekit application to optimize my bedtime ritual and actually get to bed ontime. Ironically I spent multiple days up to 3am writing this.",
@@ -35,14 +47,30 @@
     ]
   },
   {
-    "name": "Hack-a-thons",
+    "name": "Websites",
     "list": [
-      {
-        "title": "Professor Ciaraldi's Jokes",
-        "description": "A compilation of a WPI professor well known for his jokes. If you have any more send them my way ;)",
-        "link": "http://binamkayastha.com/ProfCiaraldiJokes/",
-        "linkName": "Website!"
-      },
+        {
+          "title": "Life Economy",
+          "description": "Regulate your life with fake currency.",
+          "link": "life-economy.binamkayashta.com",
+          "linkName": "DemoSite Life Economy"
+        },
+        {
+          "title": "Professor Ciaraldi's Jokes",
+          "description": "A compilation of a WPI professor well known for his jokes. If you have any more send them my way ;)",
+          "link": "prof-ciaraldi-jokes.binamkayastha.com",
+          "linkName": "Watch Prof Ciaraldi's Jokes!"
+        },
+	{
+          "title": "Lei's Scavenger Hunt",
+          "description": "A site made for secret santa scavenger hunt where I hid the present in pieces around the office.",
+          "link": "leisscavenger.binamkayastha.com",
+          "linkName": "Lei's Scavenger Hunt"
+	}
+  },
+  {
+    "name": "Hackathons",
+    "list": [
       {
         "title": "OneArmBand (1st)",
         "description": "A project where we had various devices linked together through a server in order to make music and notes from one arm",
