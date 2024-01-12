@@ -1,0 +1,158 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TypingTerminal from "../components/TypingTerminal.astro";
+import IconLinkedIn from "../components/IconLinkedIn.astro";
+import IconGithub from "../components/IconGithub.astro";
+import IconResume from "../components/IconResume.astro";
+import { getCollection } from "astro:content";
+
+const posts = await getCollection("projects");
+---
+
+<BaseLayout
+  description="Binam's portfolio website, check out all the cool stuff I've done!"
+>
+  <div class="intro-and-links m-auto">
+    <div>
+      <div class="popover-hover-wrapper">
+        <div class="popover-wrapper">
+          <div class="popover z-0"></div>
+        </div>
+      </div>
+      <div class="relative z-10">
+        <TypingTerminal
+          title="$ INTRODUCTION.sh"
+          texts={[
+            "Hello! My name is Binam, I love building web applications " +
+              "and creating great consumer experiences!",
+            "I also love playing with new technologies - currently " +
+              "I'm playing with Astro and Daisy UI, the tech used to " +
+              "build this Page!",
+          ]}
+        />
+      </div>
+    </div>
+
+    <div class="flex flex-wrap justify-evenly py-8">
+      <a
+        class="btn m-2 pl-3 btn-primary"
+        href="https://www.linkedin.com/in/binamkayastha"
+        target="_blank"
+        aria-label="Linkedin"
+      >
+        <IconLinkedIn /> &nbsp;&nbsp; LinkedIn
+      </a>
+      <a
+        class="btn m-2 pl-3 btn-primary"
+        href="https://github.com/binamkayastha"
+        target="_blank"
+        aria-label="Github Profile"
+      >
+        <IconGithub /> &nbsp;&nbsp; Github
+      </a>
+      <!-- Open button in a new tab -->
+      <a
+        class="btn m-2 pl-3 btn-primary"
+        href="/resume.pdf"
+        target="_blank"
+        aria-label="Binam's Resume"
+      >
+        <IconResume /> &nbsp;&nbsp; Resume
+      </a>
+    </div>
+  </div>
+
+  <div class="flex flex-wrap justify-center gap-6">
+    {
+      posts
+        .sort(function (a, b) {
+          return a.data.priority - b.data.priority;
+        })
+        .map((post) => (
+          <div class="card w-96 bg-purple-400 shadow-xl">
+            <figure class="max-h-32">
+              <img src={post.data.heroImage} alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title text-black">{post.data.title}</h2>
+              <p class="text-slate-800">{post.data.description}</p>
+              <div class="card-actions justify-between mt-4">
+                {post.data.githubUrl && (
+                  <a
+                    class="btn btn-square bg-white"
+                    href={post.data.githubUrl}
+                    aria-label="Project Github Repo"
+                    target="_blank"
+                  >
+                    <IconGithub />
+                  </a>
+                )}
+                <div class="flex-1" />
+                <a
+                  class="btn"
+                  href={
+                    post.data.projectPage
+                      ? post.data.projectPage
+                      : `/projects/${post.slug}/`
+                  }
+                  aria-label="Project Details"
+                  target="_blank"
+                >
+                  {post.data.title}
+                </a>
+              </div>
+            </div>
+          </div>
+        ))
+    }
+  </div>
+</BaseLayout>
+
+<style>
+  .intro-and-links {
+    max-width: 65ch;
+  }
+  .arrow-left {
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-bottom: 173.2solid transparent;
+    border-right: 100px solid green;
+    animation: rotation 2s infinite linear;
+  }
+  .large-text {
+    font-size: 6rem;
+    line-height: 7.25rem;
+  }
+  @keyframes pop {
+    from {
+      transform: translateY(80%);
+    }
+    to {
+      transform: translateY(10%);
+    }
+  }
+  @keyframes hover-pop {
+    to {
+      transform: translateY(-50%);
+    }
+  }
+  .popover-wrapper {
+    position: relative;
+    display: grid;
+    place-content: center;
+    transition: transform 400ms ease-out;
+  }
+  /* A separate wrapper is needed as the popover
+  div cannot have both an initial animation and
+  hover attached to it. So we animate the wrapper
+  div.
+  */
+  /*.popover-hover-wrapper:hover .popover-wrapper {
+    transform: translateY(-40%);
+  }*/
+  .popover {
+    animation: pop 2000ms both;
+    animation-delay: 200ms;
+  }
+</style>

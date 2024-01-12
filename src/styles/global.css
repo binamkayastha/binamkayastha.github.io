@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*
+TODO
+https://tailwindcss.com/docs/installation
+npx tailwindcss -i ./src/styles/global.css -o ./dist/output.css --watc
+I don't know where the output file should be yet
+*/
+
+For images with captions
+figure {
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  margin: 3em;
+  padding: 3em;
+  color: grey;
+  --tw-prose-links: grey;
+}
