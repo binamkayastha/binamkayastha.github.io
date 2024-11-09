@@ -111,6 +111,13 @@ declare module 'astro:content' {
 
 	const entryMap: {
 		"projects": {
+"buzzer.md": {
+  id: "buzzer.md",
+  slug: "buzzer",
+  body: string,
+  collection: "projects",
+  data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] },
 "leis-scavenger-hunt.md": {
   id: "leis-scavenger-hunt.md",
   slug: "leis-scavenger-hunt",
